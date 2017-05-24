@@ -1,0 +1,10 @@
+
+oyntax = "proto3"
+proto文件中是proto文件
+运行  protoc --go_out=.test.proto
+生成  test.pb.go
+
+然在gopath中建立一个文件夹proto，将test.pb.go拷贝到proto文件夹中即可
+
+首先运行go run server.go
+然后运行go run client.go
